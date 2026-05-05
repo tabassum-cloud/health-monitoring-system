@@ -10,6 +10,18 @@ This project is an IoT-based system designed to monitor the health and environme
 - Cloud integration using ThingSpeak
 - Emergency SMS alerts
 
+## Architecture
+
+Sensors (Temperature, Gas, LDR, BPM)  
+        ↓  
+Arduino (Data Processing)  
+        ↓  
+ESP8266 (WiFi Module)  
+        ↓  
+ThingSpeak Cloud  
+        ↓  
+User Monitoring (Dashboard / Alerts)
+
 ## Technologies Used
 - Arduino
 - ESP8266
